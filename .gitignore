@@ -1,0 +1,3 @@
+config/*.rsa
+build
+*.DS_Store

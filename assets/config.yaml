@@ -1,0 +1,10 @@
+rsakey:
+  public: "./config/public.rsa"
+  private: "./config/private.rsa"
+
+# mysql 数据库服务器配置。
+mysql:
+  dbname: "echo_template"
+  address: "localhost:3307"
+  username: "echo_template"
+  password: "echo_template"

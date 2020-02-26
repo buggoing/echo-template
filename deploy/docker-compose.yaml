@@ -1,0 +1,16 @@
+version: "3.6"
+services:
+  mysql-pi-cloud-monitor:
+    image: mysql:5.7
+    container_name: echo_template_mysql
+    command: --default-authentication-plugin=mysql_native_password
+    volumes:
+      - ../assets/pi-cloud-monitor.sql:/docker-entrypoint-initdb.d/pi-cloud-monitor.sql
+      - /data/echo_template_monitor_backend/mysql:/var/lib/mysql
+    environment:
+      MYSQL_ROOT_PASSWORD: "123456"
+      MYSQL_DATABASE: "echo_template"
+      MYSQL_USER: "echo_template"
+      MYSQL_PASSWORD: "echo_template"
+    ports:
+      - 3307:3306
