@@ -3,7 +3,7 @@ package main
 import (
 	"fmt"
 
-	_ "github.com/PPIO/pi-cloud-monitor-backend/docs"
+	_ "github.com/buggoing/echo-template/docs"
 	"github.com/labstack/echo/v4"
 	echoSwagger "github.com/swaggo/echo-swagger"
 )

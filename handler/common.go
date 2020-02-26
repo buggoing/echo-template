@@ -3,7 +3,7 @@ package handler
 import (
 	"time"
 
-	"github.com/PPIO/pi-cloud-monitor-backend/logger"
+	"github.com/buggoing/echo-template/logger"
 )
 
 const databaseOperationTimeout = 10 * time.Second

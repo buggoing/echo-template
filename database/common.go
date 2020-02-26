@@ -6,7 +6,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/PPIO/pi-cloud-monitor-backend/logger"
+	"github.com/buggoing/echo-template/logger"
 )
 
 var log = logger.New("database")

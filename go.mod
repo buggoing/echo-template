@@ -1,4 +1,4 @@
-module github.com/PPIO/pi-cloud-monitor-backend
+module github.com/buggoing/echo-template
 
 go 1.12
 

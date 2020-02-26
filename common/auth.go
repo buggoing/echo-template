@@ -1,7 +1,7 @@
 package common
 
 import (
-	"github.com/PPIO/pi-cloud-monitor-backend/config"
+	"github.com/buggoing/echo-template/config"
 	"github.com/dgrijalva/jwt-go"
 )
 

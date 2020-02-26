@@ -5,7 +5,7 @@ import (
 	"net/http"
 	"strings"
 
-	"github.com/PPIO/pi-cloud-monitor-backend/common"
+	"github.com/buggoing/echo-template/common"
 	"github.com/dgrijalva/jwt-go"
 	"github.com/labstack/echo/v4"
 	"github.com/labstack/echo/v4/middleware"

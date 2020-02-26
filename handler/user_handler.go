@@ -6,8 +6,8 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/PPIO/pi-cloud-monitor-backend/common"
-	"github.com/PPIO/pi-cloud-monitor-backend/database"
+	"github.com/buggoing/echo-template/common"
+	"github.com/buggoing/echo-template/database"
 	"github.com/labstack/echo/v4"
 )
 
